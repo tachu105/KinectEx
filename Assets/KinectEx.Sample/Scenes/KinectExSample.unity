@@ -185,6 +185,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: KinectBoneCutoutView
       objectReference: {fileID: 0}
+    - target: {fileID: 5453413240303259165, guid: cb2d865d872f21f47bcf293dd9920450,
+        type: 3}
+      propertyPath: flip
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453413240303259165, guid: cb2d865d872f21f47bcf293dd9920450,
+        type: 3}
+      propertyPath: mirror
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -302,7 +312,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
