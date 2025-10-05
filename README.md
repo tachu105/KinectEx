@@ -166,6 +166,7 @@ https://github.com/tachu105/KinectEx.git?path=Assets/KinectEx
 
 #### インポート手順
 1) 以下のリンクをクリックし、Releases画面に移動します。
+   **Releaseページ**：[https://github.com/tachu105/KinectEx/releases](https://github.com/tachu105/KinectEx/releases)
 
 2) 最新バージョン(Latest)の「Assets」の項目を開き、KinectEx.○.○.○.unitypackageを選択してファイルをダウンロードします。
 
