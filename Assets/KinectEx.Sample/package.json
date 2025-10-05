@@ -1,0 +1,12 @@
+{
+  "name": "jp.tachu105.kinectex.sample",
+  "version": "1.0.0",
+  "displayName": "Kinect Ex Sample",
+  "description": "Kinect Exを用いて作成したサンプル作品",
+  "unity": "2022.3",
+  "author": {
+    "name": "tachu105",
+    "url": "https://github.com/tachu105"
+  },
+  "licence": "MIT"
+}

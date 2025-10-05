@@ -1,0 +1,12 @@
+{
+  "name": "jp.tachu105.kinectex",
+  "version": "1.0.0",
+  "displayName": "Kinect Ex",
+  "description": "Kinect V2用拡張ライブラリ",
+  "unity": "2022.3",
+  "author": {
+    "name": "tachu105",
+    "url": "https://github.com/tachu105"
+  },
+  "licence": "MIT"
+}
