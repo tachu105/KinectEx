@@ -12,7 +12,7 @@ namespace KinectEx
         [Tooltip("上下反転"),SerializeField]
         private bool flip = false;
 
-        [Header("Bone認識範囲設定")] 
+        [Header("人物認識範囲設定")] 
         [Range(0.5f, 8.0f)]
         [Tooltip("表示する最大距離（メートル）"), SerializeField]
         private float maxDistance = 8.0f;
@@ -57,7 +57,11 @@ namespace KinectEx
             _initialized = true;
         }
 
-        private void ApplySettingsToComponents()
+        /// <summary>
+        /// 各コンポーネントに設定を適用
+        /// パラメーター変更時はこのメソッドを呼び出すこと
+        /// </summary>
+        public void ApplySettingsToComponents()
         {
             _cutoutBodyByDepthSourceView.ApplySettings(mirror, flip, maxDistance, visualizeCaptureDistance, downsample);
             _bodyMappingView.ApplySettings(mirror, flip, maxDistance, boneMaterial,
