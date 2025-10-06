@@ -205,7 +205,7 @@ KinectExを用いた簡単なインタラクティブアートのサンプルデ
 
 #### Git URL
 ```
-https://github.com/tachu105/KinectEx.git?Assets/KinectEx.Sample
+https://github.com/tachu105/KinectEx.git?path=Assets/KinectEx.Sample
 ```
 ※ サンプルを遊ぶためには、別途でKinect for Windows SDK 2.0、KinectForWindows_UnityPro、KinectExが必要です。
 
